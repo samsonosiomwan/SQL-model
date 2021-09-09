@@ -5,6 +5,8 @@ Writing a simple model classes for interaction with database tables using raw SQ
 # Technologies
 -PostgreSQL
 -Psycopg2
+-pandas
+-numpy
 
 
 ### for context: Part I → PostgreSQL
@@ -56,6 +58,7 @@ In this part, we want to manage data presented in CSV format in the `grades.csv`
 
 # How to use;
 -clone this repository
+-set up postgres/sqlite database environment and keep it running
 -follow the instructions on main.py
 - set up database by removing comment # from the setup in main.py
 - set up seed initial data by removing the # from 'check_set = set_up.setup_default_data()' on main.py

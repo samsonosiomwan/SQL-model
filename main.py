@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # set_up = SetUpDatabase() 
     # check_set = set_up.setup_default_data()
 
-    # #User Queries
+    # #User Queries4
     new_user = User()
     # print(new_user.all())   # print all users in database
     # print(new_user.get(1))  # print one user using the user id
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # print(users_book.destroy(1)) # delete user using using id
     # print('=============================================================')
 
-    #sqllite3 Setup 
+    # sqllite3 Setup 
     # setup_database = SetUpSQL()
     # setup_database.convert_to_sql()
 
